@@ -645,4 +645,31 @@
 		padding: 0 3rem;
 	}
 }
+.header {
+    background-color: lightgreen;
+    text-align: center;
+    padding: 50px 0;
+    position: relative;
+}
+.header h1 {
+    font-size: 3rem;
+    margin: 0;
+    display: inline-block;
+    position: relative;
+}
+.header h1::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 50%;
+    height: 3px;
+    background-color: white;
+    transform: translateX(-50%);
+    transition: width 0.3s ease;
+}
+.header h1:hover::after {
+    width: 80%;
+}
+
 /* End Newsletter Section */
