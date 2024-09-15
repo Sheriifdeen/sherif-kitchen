@@ -10,7 +10,6 @@
 .nav__wrapper {
 	display: flex;
 	justify-content: space-between;
-	background-color: var(--lightGreen-1);;
 }
 .nav__list li {
 	display: inline-block;
